@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d702ff2-02d0-418c-a9e6-0e71d6935cd5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hackathon/Hackathon/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Hackathon/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hackathon/Hackathon/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Hackathon/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/docshare/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/docshare/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/docshare/templates/docshare/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/docshare/templates/docshare/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/docshare/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/docshare/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +40,7 @@
       <updated>1613818146027</updated>
       <workItem from="1613818158266" duration="40000" />
       <workItem from="1614020702048" duration="1545000" />
+      <workItem from="1614105306157" duration="3694000" />
     </task>
     <servers />
   </component>

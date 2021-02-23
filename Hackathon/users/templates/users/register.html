@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+    {% load crispy_forms_tags %}
+    <div>
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-3">Join Now</legend>
+                {{ form|crispy }}
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Sign Up</button>
+            </div>
+        </form>
+        <div class="border-top pt-4">
+            <small class="text-muted">Already have an account?<a class="ml-2" href=""#>Sign In</small>
+        </div>
+    </div>
+</body>
+</html>
