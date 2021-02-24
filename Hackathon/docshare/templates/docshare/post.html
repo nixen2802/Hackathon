@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}Post{% endblock %}
+ {% block body %}
+
+ <form method="post"  name="form_input" enctype="multipart/form-data">
+          {% csrf_token %}
+          
+          <div class="form-group col-md-4">
+            <label for="year">Year</label>
+            <select class="form-control" id="year" name="year">
+                <option selected>one</option>
+                <option selected>second</option>
+                <option selected>third</option>
+                <option selected>fourth</option>
+            </select>
+          </div>
+        <div class="form-group col-md-4">
+            <label for="branch">Branch</label>
+            <select class="form-control" id="branch" name="branch" >
+                <option selected>one</option>
+                <option selected>second</option>
+                <option selected>third</option>
+                <option selected>fourth</option>
+            </select>
+        </div>
+        <div class="form-group col-md-4">
+            <label for="category">Category</label>
+            <select  class="form-control" id="category" name="category" >
+                <option selected>one</option>
+                <option selected>second</option>
+                <option selected>third</option>
+                <option selected>fourth</option>
+            </select>
+        </div>
+        <div>
+            <label for="File Name">File Name : </label>
+            <input type="text" id="File_name"name="File_name">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="subject">Subject</label>
+            <input type="text" name="subject">
+            <select  class="form-control" id="subject" name="subject">
+                <option selected>one</option>
+                <option selected>second</option>
+                <option selected>third</option>
+                <option selected>fourth</option>
+            </select> 
+        </div>
+        
+        <div>
+            <label for="file">upload : </label>
+            <input type="file" name="uploaded_file" id="uploaded_file">
+        </div>
+        <div>
+            <input type="submit" name="SUBMIT">
+        </div>
+      </form>
+     
+
+  
+
+{% endblock %}
